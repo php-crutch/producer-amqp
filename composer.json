@@ -1,0 +1,16 @@
+{
+  "name": "crutch/producer-amqp",
+  "type": "library",
+  "description": "AMQP protocol producer",
+  "license": ["MIT"],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "crutch/producer": "^1.0",
+    "php-amqplib/php-amqplib": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Crutch\\AmqpProducer\\": "src/"
+    }
+  }
+}
